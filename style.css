@@ -1,0 +1,677 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: ProximaNova, Arial, Sans-serif;
+    color: #757575;
+}
+
+body {
+    color: #757575;
+    background-color: #f5f5f5;
+    font-family: ProximaNova, Arial, Sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+}
+
+.inner-nav1,
+.inner-nav2 {
+    display: flex;
+    width: 50%;
+    height: 40px;
+    padding-left: 64px;
+    padding-top: 10px;
+
+}
+
+.inner-nav2 {
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+    width: 50%;
+    height: 40px;
+}
+
+.inner-nav1 a,
+.inner-nav2 a {
+    color: #b0b0b0;
+    font-size: 11px;
+
+}
+
+.inner-nav1 p,
+.inner-nav2 p {
+    margin-left: 10px;
+}
+
+.vertical-bar {
+    margin-top: 4px;
+    font-size: 11px;
+    margin-left: 10px;
+    color: #424242;
+}
+
+#retail-store,
+#account {
+    background: transparent;
+    border: none;
+    color: #b0b0b0;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.cart {
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.container2 {
+    display: flex;
+    background-image: url(offer.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    width: 100%;
+    height: 88px;
+}
+
+.main-logo {
+    padding-left: 63px;
+    padding-top: 17px;
+}
+
+.contents {
+    padding-left: 30px;
+    padding-top: 37px;
+    display: flex;
+}
+
+.contents-paragraph {
+    padding-left: 40px;
+    font-size: 13px;
+}
+
+.contents a {
+    font-weight: 600;
+    color: #fff;
+}
+
+.search-bar {
+    width: 220px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid white
+}
+
+.container-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 59px;
+}
+
+.container3-image {
+    margin-top: 15px;
+}
+
+.container3-images {
+    padding-left: 10px;
+}
+
+.container-4 {
+    display: flex;
+    height: 130px;
+}
+
+.star-products1 {
+    width: 20cm;
+    padding-top: 75px;
+    padding-left: 170px;
+    color: #616161;
+}
+
+.star-products3 {
+    display: inline;
+    width: 20cm;
+    padding-top: 75px;
+    justify-content: end;
+    padding-right: 170px;
+}
+
+.star-products2 {
+    width: 500px;
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #616161;
+}
+
+.container-5 {
+    width: 100%;
+}
+
+.container4-images {
+    width: 100%;
+    padding-left: 35px;
+}
+
+.f2 {
+    position: absolute;
+    margin-bottom: 291px;
+}
+
+.f3 {
+    position: absolute;
+    margin-bottom: 291px;
+    margin-left: 307px;
+}
+
+.container-6 {
+    width: 100%;
+    height: 100px;
+}
+
+h2 {
+    padding-top: 55px;
+    width: 71%;
+    text-align: center;
+    border-bottom: 1px solid #616161;
+    line-height: 0.1em;
+    margin: 10px 162px 20px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #616161;
+}
+
+h2 span {
+    background: #f5f5f5;
+    padding: 0 10px;
+}
+
+.accessories-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.accessories-menu p {
+    margin-left: 50px;
+    font-size: 16px;
+    color: #757575;
+    cursor: pointer;
+}
+
+.accessories-menu :hover {
+    color: #ff6700;
+    text-decoration: underline;
+}
+
+.accessories-container {
+    display: flex;
+    width: 1226px;
+    height: 614px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.first-accessories-section {
+    width: 296px;
+    height: 614px;
+}
+
+.second-accessories-section {
+    width: 930px;
+    height: 614px;
+}
+
+.speaker {
+    margin-left: 15px;
+    width: 296px;
+    height: 300px;
+    background-color: white;
+}
+
+.speaker-2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 23px;
+}
+
+.speaker-1 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.speaker-2 p {
+    padding-top: 10px;
+    padding-left: 92px;
+    color: #ff6700;
+}
+
+.accessories-first-row,
+.accessories-second-row {
+    display: flex;
+}
+
+
+.earphone {
+    width: 296px;
+    height: 300px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.earphone-1 {
+    padding-top: 14px;
+    padding-left: 50px;
+}
+
+.earphone-2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 27px;
+    padding-left: 85px;
+}
+
+.earphone-2 p {
+    padding-top: 12px;
+    padding-left: 50px;
+    color: #ff6700;
+}
+
+
+.neckband {
+    width: 296px;
+    height: 300px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.neckband-1 {
+    padding-top: 45px;
+    padding-left: 50px;
+}
+
+.neckband-2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.neckband-2 p {
+    padding-top: 12px;
+    padding-left: 100px;
+    color: #ff6700;
+}
+
+.headphone {
+    width: 296px;
+    height: 300px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.headphone-1 {
+    padding-top: 45px;
+    padding-left: 50px;
+}
+
+.headphone-2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.headphone-2 p {
+    padding-top: 12px;
+    padding-left: 93px;
+    color: #ff6700;
+}
+
+.dualdriver {
+    width: 296px;
+    height: 300px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.dualdriver-1 {
+    padding-top: 45px;
+    padding-left: 50px;
+}
+
+.dualdriver-2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.dualdriver-2 p {
+    padding-top: 12px;
+    padding-left: 93px;
+    color: #ff6700;
+}
+
+
+.browse-more {
+    width: 296px;
+    height: 300px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.browse-more1 {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.product-review {
+    display: flex;
+    width: 1226px;
+    height: 358px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.product-review-first-image {
+    width: 606px;
+    height: 249px;
+}
+
+.product-review-first-content {
+    background-color: white;
+    height: 110px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.a0 {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 18px;
+    color: #616161;
+}
+
+.a1 {
+    color: #616161;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.a2 {
+    color: #ff6700;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.product-review-second {
+    margin-left: 14px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    width: 1226px;
+    height: 320px;
+    margin-left: 35px;
+}
+
+.press {
+    width: 100%;
+    height: 600px;
+    background-image: url(20.jpg);
+    background-position: center;
+}
+
+.press-title h1 {
+    color: white;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 300
+}
+
+.line hr {
+    width: 70px;
+    margin-left: 637px;
+    color: white;
+    background-color: white;
+    height: 3px;
+}
+
+.press-para p {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.press-atag a {
+    color: white;
+    text-decoration-line: underline;
+    font-size: 14px;
+    padding-left: 650px;
+}
+
+.press-atag {
+    margin-top: 10px;
+}
+
+.dot {
+    width: 100%;
+    height: 120px;
+}
+
+.before-footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    font-size: 14px;
+
+}
+
+.div1 {
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.div2 {
+    margin-left: 20px;
+    padding-top: 25px;
+    width: 310px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.div3 {
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.div4 {
+    padding-top: 25px;
+    margin-left: 20px;
+    width: 310px;
+    height: 80px;
+}
+
+.div5 {
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.div6 {
+    padding-top: 25px;
+    margin-left: 20px;
+    width: 310px;
+    height: 80px;
+}
+
+.before-footer-2 {
+    display: flex;
+    width: 100%;
+    height: 126px;
+    font-size: 14px;
+}
+
+.before-1 {
+    padding-top: 33px;
+    margin-left: 50px;
+    width: 300px;
+    height: 75px;
+}
+
+.before-2 {
+    padding-top: 30px;
+    margin-left: 25px;
+    width: 300px;
+    height: 75px;
+}
+
+.before-3 {
+    padding-top: 33px;
+    width: 300px;
+    height: 75px;
+    margin-left: 80px;
+}
+
+.before-4 {
+    padding-top: 45px;
+    width: 300px;
+    height: 75px;
+    margin-left: 25px;
+}
+
+.before-2 input {
+    padding-left: 12px;
+    width: 268px;
+    height: 45px;
+}
+
+.before-4 img {
+    margin-left: 30px;
+}
+
+.container5 {
+    width: 100%px;
+    height: 556px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col ul,
+.footer-col1 ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #212121;
+
+}
+
+.footer-col {
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.footer-col1 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.footer-col h3,
+.footer-col1 h3 {
+    color: #b0b0b0;
+    ;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+
+.footer-col a,
+.footer-col1 a {
+    color: #b0b0b0;
+    ;
+    padding-bottom: 10px;
+}
+
+.button {
+    padding-top: 10px;
+    font-size: 13px;
+    padding-left: 50px;
+}
+
+.button li {
+    list-style: none;
+    padding-top: 50px;
+}
+
+.button li a {
+    color: #b0b0b0;
+}
+
+.footer-col li,
+.footer-col1 li {
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.newbutton {
+    margin-top: 10px;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition: .3s;
+}
+
+.newbutton:hover {
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+
+.last-section {
+    width: 100%;
+    height: 90px;
+    background-color: #212121;
+    color: #b0b0b0;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.last-section hr {
+    margin-bottom: 20px;
+}
